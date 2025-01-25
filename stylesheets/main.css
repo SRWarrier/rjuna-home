@@ -74,16 +74,17 @@ header nav ul li a:hover {
     font-weight: 700;
 }
 
+
+
 .container h2 {
     font-size: 36px;
     margin: 20px 0;
     color: #333;
 }
 
-.container p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #555;
+.coming_soon {
+    color: rgba(12,12,12,0.4);
+    font-size: 56px;
 }
 
 button {
@@ -108,11 +109,6 @@ footer {
     text-align: center;
     padding: 20px 0;
     border-top: 2px solid #fff;
-}
-
-.coming-soon{
-    color: rgba(12,12,12,0.4);
-    font-size: 32px;
 }
 
 @keyframes fadeInUp {
