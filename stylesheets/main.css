@@ -71,27 +71,34 @@ header nav ul li a:hover {
   animation: fadeInUp 1s ease forwards, breathing 12s infinite;
   opacity: 0;
   transform: translateY(50px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.logo h1 {
-  font-size: 48px;
+.logo {
   margin-bottom: 10px;
+}
+.logo h1 {
+  font-size: 2.6rem;
   color: #ffa500;
   font-weight: 700;
 }
 
+.logo p {
+  font-size: 1.2rem;
+}
+
 .container h2 {
-  font-size: 36px;
-  margin: 20px 0;
+  font-size: 2rem;
   color: #333;
 }
 
 .coming_soon {
-  font-size: 28px;
+  font-size: 3rem;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
   display: inline-block;
+  color: rgba(12, 12, 12, 0.5);
 }
 
 button {
@@ -122,17 +129,5 @@ footer {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes breathing {
-  0% {
-    box-shadow: 0 2px 8px rgb(0, 0, 0);
-  }
-  50% {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  }
-  100% {
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 1);
   }
 }
